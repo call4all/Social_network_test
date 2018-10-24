@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Milos Milivojevic">
+    <title>Social network</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <p align="center">Choose a person</p>
+                        <select id="friendPicker" class="form-control">
+
+                        </select>
+                    </div>
+
+                    <div class="col-md-9  ">
+                        <div class="col-md-9">
+                            <p align="center">Choose what you want to see</p>
+                        </div>
+
+                        <div class="btn-group col-md-9">
+                            <button id="directFriends" type="button" class="btn btn-outline-secondary form-control">Direct friends</button>
+                            <button id="friendsOfFriends" type="button" class="btn btn-outline-secondary form-control">Friends of friends</button>
+                            <button id="suggestedFriends" type="button" class="btn btn-outline-secondary form-control">Suggested friends</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div id="Friends">
+                <table id="tableid" class="table">
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="jquery-3.3.1.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
